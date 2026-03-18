@@ -4,7 +4,7 @@ import uvicorn
 app = FastAPI()
 
 @app.get('/')
-def start_page():
+def start_page(:
     return 'hi there!!!'
 
 if __name__ == '__main__':
